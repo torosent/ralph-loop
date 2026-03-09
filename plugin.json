@@ -1,0 +1,13 @@
+{
+  "name": "ralph-loop",
+  "description": "Iterative self-referential development loops for GitHub Copilot CLI. Runs the same prompt repeatedly until task completion, implementing the Ralph Wiggum technique.",
+  "version": "1.0.0",
+  "author": {
+    "name": "PeterHdd"
+  },
+  "license": "MIT",
+  "keywords": ["ralph", "loop", "iteration", "autonomous", "tdd", "refinement"],
+  "category": "development",
+  "commands": "commands/",
+  "hooks": "hooks.json"
+}

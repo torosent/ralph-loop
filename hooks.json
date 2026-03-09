@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "hooks": {
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "${COPILOT_PLUGIN_ROOT}/scripts/stop-hook.sh",
+        "timeoutSec": 30
+      }
+    ]
+  }
+}
